@@ -14,9 +14,9 @@ import (
 	log "github.com/Sirupsen/logrus"
 	"github.com/pkg/errors"
 
-	"github.com/metaverse/truss/gengokit"
-	"github.com/metaverse/truss/gengokit/handlers/templates"
-	"github.com/metaverse/truss/svcdef"
+	"github.com/gitwak/truss/gengokit"
+	"github.com/gitwak/truss/gengokit/handlers/templates"
+	"github.com/gitwak/truss/svcdef"
 )
 
 // NewService is an exported func that creates a new service

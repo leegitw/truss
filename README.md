@@ -1,4 +1,4 @@
-# Truss [![Build Status](https://travis-ci.org/metaverse/truss.svg?branch=master)](https://travis-ci.org/metaverse/truss)
+# Truss [![Build Status](https://travis-ci.org/gitwak/truss.svg?branch=master)](https://travis-ci.org/gitwak/truss)
 
 Truss handles the painful parts of services, freeing you to focus on the
 business logic.
@@ -19,15 +19,15 @@ Otherwise [install from source.](https://github.com/google/protobuf)
 1. Install Truss with
 
 	```
-	go get -u -d github.com/metaverse/truss
-	cd $GOPATH/src/github.com/metaverse/truss
+	go get -u -d github.com/gitwak/truss
+	cd $GOPATH/src/github.com/gitwak/truss
 	make dependencies
 	make
 	```
 	On Windows, do the following instead:
 	```
-	go get -u -d github.com/metaverse/truss
-	cd %GOPATH%/src/github.com/metaverse/truss
+	go get -u -d github.com/gitwak/truss
+	cd %GOPATH%/src/github.com/gitwak/truss
 	wininstall.bat
 	```
 

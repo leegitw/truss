@@ -18,8 +18,8 @@ import (
 	plugin "github.com/golang/protobuf/protoc-gen-go/plugin"
 	"github.com/pkg/errors"
 
-	"github.com/metaverse/truss/svcdef/svcparse"
-	"github.com/metaverse/truss/truss/execprotoc"
+	"github.com/gitwak/truss/svcdef/svcparse"
+	"github.com/gitwak/truss/truss/execprotoc"
 )
 
 var gengo *generator.Generator

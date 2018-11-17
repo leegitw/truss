@@ -9,9 +9,9 @@ import (
 	generatego "github.com/golang/protobuf/protoc-gen-go/generator"
 	"github.com/pkg/errors"
 
-	"github.com/metaverse/truss/gengokit/clientarggen"
-	"github.com/metaverse/truss/gengokit/httptransport"
-	"github.com/metaverse/truss/svcdef"
+	"github.com/gitwak/truss/gengokit/clientarggen"
+	"github.com/gitwak/truss/gengokit/httptransport"
+	"github.com/gitwak/truss/svcdef"
 )
 
 type Renderable interface {
