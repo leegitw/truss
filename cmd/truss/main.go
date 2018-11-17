@@ -271,9 +271,9 @@ func parseServiceDefinition(cfg *truss.Config) (*svcdef.Svcdef, error) {
 	}
 
 	// TODO: Remove once golang 1.9 comes out and type aliases solve context vs golang.org/x/net/context
-	if err := rewritePBGoForContext(sd.Service.Name, pbgoPaths); err != nil {
-		return nil, errors.Wrap(err, "cannot rewrite .pb.go files")
-	}
+	//if err := rewritePBGoForContext(sd.Service.Name, pbgoPaths); err != nil {
+	//	return nil, errors.Wrap(err, "cannot rewrite .pb.go files")
+	//}
 
 	return sd, nil
 }
